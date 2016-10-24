@@ -315,24 +315,24 @@ a:visited {
 @media only screen and (max-width: 640px) {
         .container {
             width: 600px;
-            margin: 0 auto;
+            margin: 0 20px 0 20px;
             overflow: auto;
         }
         header {
-            margin: 0;
-            height: 125px;
-            margin-bottom: 30px;
+        position: static;
+        width: 640px;
         }
         #main_header h1 {
-            position: static;
-            width: 100%
+            top: 0;
+            width: 640px;
+            left: 0;
         }
         nav {
             float: none;
             clear: both;
             width: 100%;
             text-align: center;
-            margin-top: 18px;
+            margin-top: 90px;
         }
         nav a {
             padding-right: 50px;
@@ -344,3 +344,9 @@ a:visited {
             padding-right: 0;
             float: none;
         }
+        footer{
+            position: static;
+            right: 0;
+            width: 640px;
+        }
+}
