@@ -314,17 +314,18 @@ a:visited {
 
 @media only screen and (max-width: 640px) {
         .container {
-            width: 600px;
-            margin: 0 20px 0 20px;
+            width: 90%;
+            margin: 0 auto;
             overflow: auto;
         }
-        header {
+        header, .header-content {
         position: static;
-        width: 640px;
+        width: 100%;
+        display: block;
         }
         #main_header h1 {
+            width: 100%;
             top: 0;
-            width: 640px;
             left: 0;
         }
         nav {
@@ -335,8 +336,9 @@ a:visited {
             margin-top: 90px;
         }
         nav a {
-            padding-right: 50px;
-            padding-left: 50px;
+            text-align: center;
+            padding-right: auto;
+            padding-left: auto;
         }
         #bio_img {
             width: 100%;
@@ -347,6 +349,6 @@ a:visited {
         footer{
             position: static;
             right: 0;
-            width: 640px;
+            width: 100%;
         }
 }
